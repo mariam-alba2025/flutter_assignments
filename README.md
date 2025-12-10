@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mariam_flutter_hm_01
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# flutter_assignments
+flutter assignments
+>>>>>>> 3874caa414169a26ce913179cf1b2a7547faffaa
