@@ -39,7 +39,7 @@ class DashboardScreen extends StatelessWidget {
   Widget buildInfoBox(String label, String count, Color color) {
     return Container(
       color: Colors.white,
-      margin: const EdgeInsets.all(6), // مساحة حول كل مربع
+      margin: const EdgeInsets.all(6), 
       padding: const EdgeInsets.all(12),
       width: 85,
       child: Column(
@@ -61,13 +61,13 @@ class DashboardScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          color: Colors.lightBlue[100], // المربع الكبير أزرق فاتح
+          color: Colors.lightBlue[100], 
           padding: const EdgeInsets.all(16),
           margin: const EdgeInsets.all(16),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              // الصف العلوي A B C
+               
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
@@ -80,7 +80,7 @@ class DashboardScreen extends StatelessWidget {
               const Text('Fancy Section',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
               const SizedBox(height: 12),
-              // الشبكة داخل مربع رمادي
+              
               Container(
                 color: Colors.grey[300],
                 padding: const EdgeInsets.all(12),
@@ -99,7 +99,7 @@ class DashboardScreen extends StatelessWidget {
               const Text('Info Cards',
                   style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
               const SizedBox(height: 12),
-              // المربعات السفلية مع مساحة حولها
+             
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
