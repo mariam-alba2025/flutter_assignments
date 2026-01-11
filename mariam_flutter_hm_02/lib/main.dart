@@ -23,20 +23,20 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue, // لون سماوي
-        centerTitle: true, // العنوان بالوسط
+        backgroundColor: Colors.lightBlue,
+        centerTitle: true,
         title: const Text("emotion"),
-        leading: const Icon(Icons.menu), // أيقونة همبرقر منيو
+        leading: const Icon(Icons.menu),
       ),
       body: Container(
-        color: Colors.grey[300], // خلفية رمادية أغمق من الكاردات
+        color: Colors.grey[300],
         child: GridView.count(
-          crossAxisCount: 2, // عمودين
+          crossAxisCount: 2,
           children: items.map((text) {
             return Card(
-              color: Colors.white, // لون الكارد أبيض
+              color: Colors.white,
               shape: const RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero, // مربعات بدون تدوير
+                borderRadius: BorderRadius.zero,
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -56,11 +56,11 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {}, // بدون تفاعل
-        backgroundColor: Colors.lightBlue, // لون الزر سماوي
-        child: const Icon(Icons.refresh), // أيقونة ريلود
+        onPressed: () {},
+        backgroundColor: Colors.lightBlue,
+        child: const Icon(Icons.refresh),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat, // أقصى اليمين
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }
